@@ -1,60 +1,97 @@
-# 📊 Dashboard de Produção — Power BI
+# Dashboard de Produção — Power BI
 
-Dashboard desenvolvido durante o **curso de Power BI do SENAI**, com o objetivo de consolidar e visualizar indicadores de produção industrial a partir de uma base de apontamentos.
+Dashboard desenvolvido para análise de indicadores de produção, com o objetivo de transformar dados operacionais em informações visuais para acompanhamento de produtividade, qualidade e horas trabalhadas.
 
-##  Sobre os dados
+## Dashboard
 
-A base utilizada possui mais de **31 mil registros** de apontamentos de produção, contendo informações como:
+![Dashboard de Produção](dashboard.png)
 
-- **31 operadores**
-- **447 produtos diferentes**
-- Período de **janeiro de 2021 a janeiro de 2022**
-- Ocorrências relacionadas a falhas de equipamento, peças danificadas, manutenção, erros de projeto, entre outras situações.
+## Sobre os dados
 
-##  O que o dashboard apresenta
+A base utilizada contém 31.616 registros de produção, com informações relacionadas às ordens de produção, operadores, produtos, ocorrências, períodos de produção e quantidades produzidas e rejeitadas.
+
+A base contém informações como:
+
+- Número da ordem
+- Operador
+- Produto
+- Ocorrência
+- Data de início
+- Hora de início
+- Data de fim
+- Hora de fim
+- Total de horas
+- Quantidade produzida
+- Quantidade rejeitada
+
+Os dados abrangem o período de janeiro de 2021 a janeiro de 2022.
+
+## O que o dashboard apresenta
 
 ### Indicadores
 
-- **Quantidade Produzida**
-- **Quantidade Rejeitada**
-- **Horas Produtivas**
-- **Horas Paradas**
+- Quantidade produzida
+- Quantidade rejeitada
+- Horas produtivas
+- Horas paradas
+- Percentual de produtividade
+- Percentual de qualidade
 
 ### Gráficos e análises
 
-- **Produção mensal:** evolução da quantidade produzida ao longo do período, com os meses apresentados em ordem cronológica.
-- **% Produtividade:** indicador calculado utilizando medida DAX para representar o percentual de produtividade no período.
-- **% Qualidade:** indicador calculado pela fórmula:
+**Quantidade produzida por mês:**  
+Acompanhamento da produção ao longo dos meses, permitindo visualizar as variações na quantidade produzida durante o período analisado.
 
-  `(% Qualidade) = (Quantidade Produzida − Quantidade Rejeitada) ÷ Quantidade Produzida`
+**Percentual de produtividade:**  
+Indicador visual para acompanhamento do nível de produtividade em relação às horas disponíveis para produção.
 
-### Filtros
+**Percentual de qualidade:**  
+Indicador baseado na relação entre a quantidade produzida e a quantidade rejeitada.
 
-O dashboard possui filtros dinâmicos para análise por:
+**Filtros por operador:**  
+Permite analisar os indicadores de produção de acordo com o operador selecionado.
 
-- **Operador**
-- **Mês**
+**Filtros por mês:**  
+Permite visualizar os indicadores considerando um determinado mês.
 
-##  Principais aprendizados
+## Principais resultados
+
+A análise apresentada no dashboard possui os seguintes indicadores gerais:
+
+- **Quantidade produzida:** 3.084.251
+- **Quantidade rejeitada:** 21.076
+- **Horas produtivas:** 30.957
+- **Horas paradas:** 8.892
+- **Produtividade:** 77,69%
+- **Qualidade:** 99,32%
+
+## Principais aprendizados
 
 Durante o desenvolvimento do projeto, foram praticados conceitos como:
 
-- Criação e utilização de **medidas DAX**
-- Utilização de **Medidas Rápidas (Quick Measures)**
-- Ajuste manual de fórmulas DAX geradas pelo Power BI
-- Configuração de **gráficos e indicadores (Gauge)**
-- Definição de valores mínimos e máximos em indicadores percentuais
-- **Ordenação personalizada de campos de texto**, utilizando uma coluna auxiliar numérica e o recurso **Classificar por Coluna**
+- Tratamento e organização de dados
+- Criação e utilização de medidas DAX
+- Cálculo de indicadores de produção
+- Cálculo de produtividade
+- Cálculo de qualidade
+- Análise de quantidade produzida
+- Análise de quantidade rejeitada
+- Análise de horas produtivas e horas paradas
+- Criação de indicadores (Cards/KPIs)
+- Criação e configuração de gráficos
+- Utilização de gráfico de linhas
+- Utilização de gráficos de indicadores
 - Criação de filtros e interação entre os elementos do dashboard
 - Organização e apresentação visual de indicadores de produção
 
-##  Ferramentas utilizadas
+## Ferramentas utilizadas
 
-- **Power BI Desktop**
-- **DAX**
+- Power BI Desktop
+- DAX
+- Microsoft Excel
 
-##  Autor
+## Autor
 
 **Henrique Jesus Amorim da Cruz**
 
-Projeto desenvolvido como parte do **curso de Power BI do SENAI**.
+Projeto desenvolvido como parte do curso de Power BI do SENAI.
