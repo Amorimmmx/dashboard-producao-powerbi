@@ -4,7 +4,9 @@ Dashboard desenvolvido para análise de indicadores de produção, com o objetiv
 
 ## Dashboard
 
-![Dashboard de Produção](dashboard.png)
+<p align="center">
+  <img src="painel.jpeg" width="900">
+</p>
 
 ## Sobre os dados
 
