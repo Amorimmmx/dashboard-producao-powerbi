@@ -5,7 +5,8 @@ Dashboard desenvolvido para análise de indicadores de produção, com o objetiv
 ## Dashboard
 
 <p align="center">
-  <img src="painel.jpeg" width="900">
+  <img src="https://raw.githubusercontent.com/Amorimmmx/dashboard-producao-powerbi/main/painel.jpeg" width="900">
+</p>c="painel.jpeg" width="900">
 </p>
 
 ## Sobre os dados
